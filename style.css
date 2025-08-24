@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Federant", serif;
+}
+.back{
+    background-image: url('./assets/pexels-hasan-kurt-154798938-10749578.jpg');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+h1{
+    color: white;
+}
+header h1{
+    margin-top: 10px;
+    margin-left: 70px;
+    font-family: "Playwrite CA", cursive;
+}
+nav ul{
+    width: 600px;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 20px ;
+   margin-right: 10px;
+   
+}
+ul i{
+    color: aliceblue;
+}
+nav a{
+    text-decoration: none;
+    transition: 1s;
+}
+ul button{
+
+    background-color: yellow;
+    color: black;
+   border-radius: 30px;
+   border-width: 0;
+    padding: 4px;
+  
+}
+nav a:hover{
+    color: brown;
+}
+#content{
+   
+    height: 70vh;
+    margin-left: 850px;
+   
+}
+.head h2{
+    color: yellow;
+    font-family: "Playwrite CA", cursive;
+  
+}
+#content h2{
+    margin-top: 100px;
+    
+}
+#content p{
+    margin-top: 20px;
+    color: aliceblue;
+    width: 80vh;
+    
+}
+.head button{
+    margin-top: 40px;
+    background-color: yellow;
+    color: black;
+   border-radius: 30px;
+   border-width: 0;
+    padding: 4px;
+    
+}
+.head a{
+    text-decoration: none;
+}
+#sub-images{
+    height: 30vh;
+  
+    margin-left: 850px;
+    margin-top: -200px;
+   
+}
+.image1 img{
+  width:200px;
+    height: 200px;
+   padding: 30px;
+    border-radius: 30%;
+ 
+}
+.main2{
+    background-image: url('./assets/pexels-oskelaq-3257659.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    
+}
+.menu-head h4{
+    text-align: center;
+    font-size: 
+    50px;
+    color: rgb(235, 235, 235);
+  
+}
+.main2 h4{
+    text-align: center;
+    font-size: 50px;
+   color: yellow;
+   font-family: "Playwrite CA", cursive;
+}
+#menu-img{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+.image-container img{
+    height: 200px;
+    width: 200px;
+    margin-top: 150px;
+    border-radius: 10%;
+   
+}
+.text{
+  
+    border-radius: 10%;
+    border-style: double;
+    width: 100px;
+    border-color: rgb(0, 0, 0.6);
+    color: rgb(173, 173, 173);
+    margin-left: 50px;
+    text-align: center;
+}
+.book{
+    background-image: url('./assets/pexels-rajesh-tp-749235-1600727.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.login{
+    height: 500px;
+    width: 90vh;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+h5{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(221, 255, 0);
+    font-family: "Playwrite CA", cursive;
+}
+.login input[type="time"]:hover{
+    border-color: #555;
+  background-color: #eaeaea;
+}
+.login input[type="date"]:hover{
+   border-color: #555;
+  background-color: #eaeaea;
+} 
+
+footer{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+
+}
+.login button{
+    margin-top: 40px;
+    background-color: yellow;
+    color: black;
+   border-radius: 30px;
+   border-width: 0;
+    padding: 4px;
+
+}
+.login a{
+    text-decoration: none;
+}
+#contacts h4{
+    text-align: center;
+    font-size: 20px;
+    color: yellow;
+}
+.abc{
+    display: flex;
+    justify-content: center;
+   gap: 15px;
+
+}
+.abc i{
+    color: black;
+    width: 20px;
+    margin-top: 40px;
+}
+.image1 img:hover{
+  
+    box-shadow: 5px 8px 10px #e7eaec;
+}
+.image-container:hover{
+    box-shadow: 2px 2px 5px white;
+}
+
