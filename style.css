@@ -14,9 +14,10 @@
 header{
     display: flex;
     justify-content: space-between;
+  
 
-    
 }
+
 h1{
     color: white;
 }
@@ -214,4 +215,8 @@ footer{
 .image-container:hover{
     box-shadow: 2px 2px 5px white;
 }
+html{
+    scroll-behavior: smooth;
+}
+
 
